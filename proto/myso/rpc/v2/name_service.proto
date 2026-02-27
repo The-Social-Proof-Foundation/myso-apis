@@ -16,7 +16,7 @@ service NameService {
 message LookupNameRequest {
   // Required. The MySoNS name to lookup.
   //
-  // Supports both `@name` as well as `name.mys` formats.
+  // Supports both `@name` as well as `name.myso` formats.
   optional string name = 1;
 }
 

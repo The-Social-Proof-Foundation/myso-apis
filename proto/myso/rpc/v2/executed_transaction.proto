@@ -32,7 +32,7 @@ message ExecutedTransaction {
   //
   // This field might be empty, even if it was explicitly requested, if the
   // transaction didn't produce any events.
-  // `mys.types.TransactionEffects.events_digest` is populated if the
+  // `myso.types.TransactionEffects.events_digest` is populated if the
   // transaction produced any events.
   optional TransactionEvents events = 5;
 

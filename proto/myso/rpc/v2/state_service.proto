@@ -63,7 +63,7 @@ message CoinMetadata {
   }
 
   // ObjectId of the `0x2::coin::CoinMetadata` object or
-  // 0x2::mys::coin_registry::Currency object (when registered with CoinRegistry).
+  // 0x2::myso::coin_registry::Currency object (when registered with CoinRegistry).
   optional string id = 1;
   // Number of decimal places to coin uses.
   optional uint32 decimals = 2;
