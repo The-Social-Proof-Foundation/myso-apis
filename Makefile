@@ -17,7 +17,7 @@ lint: ## Run buf lint
 
 .PHONY: check-breaking
 check-breaking: ## Run buf breaking
-	buf breaking --against 'https://github.com/The-Social-Proof-Foundation/mys-apis.git#branch=main'
+	buf breaking --against 'https://github.com/The-Social-Proof-Foundation/myso-apis.git#branch=main'
 
 .PHONY: ci
 ci: check-fmt lint check-breaking ## Run the full CI process
