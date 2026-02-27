@@ -24,7 +24,7 @@ representations instead of a more compact bytes representation.
   [Base58](https://learnmeabitcoin.com/technical/keys/base58/).
 - `TypeTag` and `StructTag`: Represented in their canonical string format (for
   example,
-  `0x0000000000000000000000000000000000000000000000000000000000000002::coin::Coin<0x0000000000000000000000000000000000000000000000000000000000000002::mys::MYS>`)
+  `0x0000000000000000000000000000000000000000000000000000000000000002::coin::Coin<0x0000000000000000000000000000000000000000000000000000000000000002::myso::MYSO>`)
 
 ## Field Masks and Partial Responses
 Some APIs may return resources that are either larger or expensive to compute

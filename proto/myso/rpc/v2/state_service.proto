@@ -137,7 +137,7 @@ message GetBalanceRequest {
   // Required. The owner's MySocial address.
   optional string owner = 1;
 
-  // Required. The type names for the coin (e.g., 0x2::mys::MYS).
+  // Required. The type names for the coin (e.g., 0x2::myso::MYSO).
   optional string coin_type = 2;
 }
 
@@ -179,7 +179,7 @@ message ListBalancesResponse {
 
 // Balance information for a specific coin type.
 message Balance {
-  // The type of the coin (e.g., 0x2::mys::MYS).
+  // The type of the coin (e.g., 0x2::myso::MYSO).
   optional string coin_type = 1;
 
   // The total balance of `coin_type` in its smallest unit.
@@ -295,7 +295,7 @@ message ListOwnedObjectsRequest {
   // `Coin<T>` objects regardless of the type parameter `T`. Providing a type
   // with a type param will restrict the returned objects to only those objects
   // that match the provided type parameters, e.g.
-  // `0x2::coin::Coin<0x2::mys::MYS>` will only return `Coin<MYS>` objects.
+  // `0x2::coin::Coin<0x2::myso::MYSO>` will only return `Coin<MySo>` objects.
   optional string object_type = 5;
 }
 

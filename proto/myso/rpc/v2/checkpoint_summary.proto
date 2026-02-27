@@ -93,7 +93,7 @@ message CheckpointCommitment {
     CHECKPOINT_COMMITMENT_KIND_UNKNOWN = 0;
 
     // An elliptic curve multiset hash attesting to the set of objects that
-    // comprise the live state of the MySocial blockchain.
+    // comprise the live state of the MySo blockchain.
     ECMH_LIVE_OBJECT_SET = 1;
 
     // Digest of the checkpoint artifacts.
