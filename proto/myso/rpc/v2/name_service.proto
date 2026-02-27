@@ -14,7 +14,7 @@ service NameService {
 }
 
 message LookupNameRequest {
-  // Required. The MysNS name to lookup.
+  // Required. The MySoNS name to lookup.
   //
   // Supports both `@name` as well as `name.mys` formats.
   optional string name = 1;
@@ -31,7 +31,7 @@ message ReverseLookupNameRequest {
 }
 
 message ReverseLookupNameResponse {
-  // The record for the MysNS name linked to the requested address
+  // The record for the MySoNS name linked to the requested address
   optional NameRecord record = 1;
 }
 
@@ -42,7 +42,7 @@ message NameRecord {
   // `Field<Domain,NameRecord>`.
   optional string id = 1;
 
-  // The MysNS name of this record
+  // The MySoNS name of this record
   optional string name = 2;
 
   // The ID of the `RegistrationNFT` assigned to this record.
